@@ -1,2 +1,2 @@
-# COMPUTER_V-S-ON-
+# COMPUTER_VISION-
 with btk akademi computer vision  course

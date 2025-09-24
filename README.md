@@ -17,6 +17,6 @@ lfw =99.83%
 #2 v100(32gb)5 days
 
 
-MobileFaceNet if you this train model on any device  you can use MobileFaceNet 
+MobileFaceNet if you want  run this train model on any device  you can use MobileFaceNet 
 
 # 

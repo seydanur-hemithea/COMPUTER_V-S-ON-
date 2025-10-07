@@ -31,3 +31,13 @@ This project uses YOLOv8 to detect fish in images with bounding boxes. Built on 
 - Classes: 1 (fish)
 - Annotations: Bounding boxes included, no manual labeling required
 
+ Features
+- Fast and accurate object detection with YOLOv8
+- Roboflow API integration for seamless dataset access
+- Google Colab compatible training and inference
+- Visual output with bounding boxes
+- Simple, elegant, and aquatic
+
+
+
+

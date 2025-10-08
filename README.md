@@ -40,6 +40,12 @@ This project uses YOLOv8 to detect fish in images with bounding boxes. Built on 
 
 
 **object_detection_retinanet**: is a RetinaNet-powered object detection project that identifies and locates airborne objects such as airplanes, helicopters, drones, and birds in diverse sky conditions. Built with a narrative-driven approach, this project transforms technical modeling into a visual performance.
+
+This project implements RetinaNet without relying on external libraries like Fizyr. All components are built directly using PyTorch and torchvision.
+
+
+Rather than importing pre-built RetinaNet from Fizyr, this project builds the model layer by layer, treating each component as a scene in a technical performance
+
 # 📦 Dataset
 
 - **Source**: AOD-4 Dataset (Mendeley Data)

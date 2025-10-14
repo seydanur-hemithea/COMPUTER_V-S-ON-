@@ -14,7 +14,10 @@ SOTA Ç The state of the art
 5. conf.milestones = [12,16,18]
 
 
-**semantic_segmentation: Features
+
+
+**semantic_segmentation**:
+Features
 
 - Load and visualize COCO-style segmentation masks
 - Use pretrained DeepLabV3 model for semantic segmentation

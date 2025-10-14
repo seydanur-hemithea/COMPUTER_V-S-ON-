@@ -14,6 +14,23 @@ SOTA Ç The state of the art
 5. conf.milestones = [12,16,18]
 
 
+**semantic_segmentation: Features
+
+- Load and visualize COCO-style segmentation masks
+- Use pretrained DeepLabV3 model for semantic segmentation
+- Export model to ONNX format for mobile compatibility
+- Ready for integration with Android Studio via ONNX Runtime
+
+- 
+ Dataset
+
+We use a subset of the COCO 2017 dataset, available via Hugging Face:
+
+- [peteole/coco2017-segmentation-10k-256x256](https://huggingface.co/datasets/peteole/coco2017-segmentation-10k-256x256)
+- Contains 10,000 images with pixel-level segmentation masks
+- Classes include: person, cat, dog, car, chair, pizza, etc.
+
+
 lfw =99.83%
 #2 v100(32gb)5 days
 

@@ -1,5 +1,5 @@
 # COMPUTER_VISION-
-**Face_recognigation**:
+#**Face_recognigation**:
 with btk akademi computer vision  course
 if you get course files you can download this link https://files.btkakademi.gov.tr/128_BILGISAYARLI_GORU_UYGULAMA_ALANLARI/Bolum_1_2_3_4_Yuz_Tanima.zip ı use GOOGLE COLAB because ı havent screen cart hardware on my computer .
 
@@ -16,7 +16,7 @@ SOTA Ç The state of the art
 
 
 
-**semantic_segmentation**:
+#**semantic_segmentation**:
 Features
 
 - Load and visualize COCO-style segmentation masks
@@ -42,7 +42,7 @@ MobileFaceNet if you want  run this train model on any device  you can use Mobil
 
 # 
 
-**fish_detection**
+#**fish_detection**
 This project uses YOLOv8 to detect fish in images with bounding boxes. Built on a ready-to-use dataset from Roboflow Universe, it was trained and tested in Google Colab with fast, accurate results. Whether you're building a marine monitoring tool or just love aquatic creatures, this model is a playful and effective solution
 
  Dataset
@@ -59,7 +59,7 @@ This project uses YOLOv8 to detect fish in images with bounding boxes. Built on 
 - Simple, elegant, and aquatic
 
 
-**object_detection_retinanet**: is a RetinaNet-powered object detection project that identifies and locates airborne objects such as airplanes, helicopters, drones, and birds in diverse sky conditions. Built with a narrative-driven approach, this project transforms technical modeling into a visual performance.
+#**object_detection_retinanet**: is a RetinaNet-powered object detection project that identifies and locates airborne objects such as airplanes, helicopters, drones, and birds in diverse sky conditions. Built with a narrative-driven approach, this project transforms technical modeling into a visual performance.
 
 This project implements RetinaNet without relying on external libraries like Fizyr. All components are built directly using PyTorch and torchvision.
 
@@ -79,6 +79,34 @@ Rather than importing pre-built RetinaNet from Fizyr, this project builds the mo
 - **Backbone**: ResNet-50 with Feature Pyramid Network (FPN)
 - **Detection Head**: RetinaNet with Focal Loss for class imbalance
 - **Framework**: PyTorch + torchvision
+
+#**text_detection-recognition** 
+
+
+This project performs text detection and recognition on images using EasyOCR.  
+It supports multiple languages (e.g., 'tr' for Turkish, 'en' for English).
+
+## Features
+- Text detection with CRAFT
+- Text recognition with CRNN
+- Simple visualization of results
+- Easy to run in Google Colab
+
+## How to Use
+1. Upload an image
+2. Run EasyOCR to detect and recognize text
+3. View results with bounding boxes and confidence scores
+
+## Requirements
+- Python
+- easyocr
+- opencv-python
+- matplotlib
+
+## Example
+```python
+reader = easyocr.Reader(['en', 'tr'])
+results = reader.readtext('your_image.jpg')
 
 
 
